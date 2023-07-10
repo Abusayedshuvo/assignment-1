@@ -5,6 +5,10 @@ body {
 }
 
 /* common css */
+.text-center {
+    text-align: center;
+}
+
 p {
     font-size: 18px;
     line-height: 30px;
@@ -28,6 +32,14 @@ p {
     font-weight: 800;
 }
 
+.section-head {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
 /* banner css */
 
 .banner {
@@ -48,4 +60,40 @@ p {
 
 .banner .content {
     max-width: 700px;
+}
+
+/* main css */
+/* featured css */
+.featured {
+    margin: 170px 240px 120px;
+}
+
+.featured-images {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.featured-images>.img-box .one {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px 0;
+}
+
+.featured-images>.img-box .two {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 110px 50px 60px; 
+}
+
+.featured-images>.img-box .three {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 70px 75px 0;
+}
+
+.featured-images h3 {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
 }
