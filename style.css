@@ -135,3 +135,16 @@ p {
 .hot-deal p {
     margin-bottom: 30px;
 }
+
+/* Instagram css */
+
+.instagram {
+    margin: 0 240px 128px;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 50px;
+}
