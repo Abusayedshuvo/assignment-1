@@ -148,3 +148,54 @@ p {
     gap: 24px;
     margin-top: 50px;
 }
+
+/* subscribe css */
+
+.subscribe {
+    background-image: url('img/subscribe-bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 280px;
+    margin: 0 240px;
+    border-radius: 8px;
+}
+
+.subscribe form  {
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe form input[type="mail"] {
+    background-color: #fff;
+    border: 0;
+    padding: 22px;
+    border-radius: 8px;
+    min-width: 650px;
+}
+
+/* footer css */
+
+footer {
+    background-color: #111010;
+    padding: 128px 0;
+    margin-top: 128px; 
+}
+
+footer h1 {
+    font-size: 48px;
+    color: #fff;
+}
+
+footer h1 span {
+    color: #E55473;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+
+}
+
+footer .copyright {
+    color: rgba(255, 255, 255, 0.40);
+
+}
