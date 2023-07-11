@@ -115,3 +115,23 @@ p {
     font-size: 24px;
     font-weight: 600;
 }
+
+/* hot deal css */
+
+.hot-deal {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 400px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    margin: 130px 0;
+}
+
+.hot-deal h1 span {
+    color: #E55473;
+}
+
+.hot-deal p {
+    margin-bottom: 30px;
+}
