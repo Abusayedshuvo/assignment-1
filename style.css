@@ -204,6 +204,7 @@ nav .menu ul li a:hover{
 
 .blogs .blog {
     background-color: rgba(39, 39, 39, 0.05); 
+    border-radius: 8px;
 }
 
 .blog img {
@@ -214,8 +215,7 @@ nav .menu ul li a:hover{
 
 .blog .content {
     padding: 25px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    
 }
 
 .blog .content p:first-child{
