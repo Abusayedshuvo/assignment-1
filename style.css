@@ -203,15 +203,19 @@ nav .menu ul li a:hover{
 }
 
 .blogs .blog {
-    background-color: rgba(39, 39, 39, 0.05);
+    background-color: rgba(39, 39, 39, 0.05); 
 }
 
 .blog img {
     width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .blog .content {
     padding: 25px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .blog .content p:first-child{
